@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@joyid/evm": "0.3.0-beta.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@unocss/reset": "0.57.1",
+    "@vitejs/plugin-react": "^3.1.0",
+    "daisyui": "^3.9.3",
+    "esbuild-wasm": "^0.17.12",
+    "typescript": "^5.2.2",
+    "unocss": "^0.57.1",
+    "unocss-preset-daisy-cjs": "^7.0.1",
+    "vite": "4.1.4"
+  },
+  "main": "/index.tsx"
+}
